@@ -20,8 +20,9 @@ update(state){
   start() {
     form = new Form();
     form.display();
-    playerCount=player.getCount()
     player = new Player();
+    playerCount=player.getCount()
+    
     carro1=createSprite(width/2-50,height-100)
     carro1.addImage(carroimg1)
     carro1.scale=0.07
